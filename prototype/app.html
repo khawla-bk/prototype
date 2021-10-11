@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DASHBOARD</title>
+    <link rel="icon" href="logo.png" />
+    <link rel="stylesheet" href="app.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="user.html" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <!-- Sidebar -->
+  <body>
+    <div class="sidebar">
+      <div class="logo-details">
+        <div class="logo">
+          <img src="logo.png" />
+          <p class="logo-name">GOGEO ENGINEERING</p>
+        </div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <a href="#">
+            <i class="bx bx-search-alt"></i>
+            <input type="text" placeholder="Search.." />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-grid-alt"></i>
+            <span>Main Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="user.html">
+            <i class="bx bx-user"></i>
+            <span>User</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-cog"></i>
+            <span>Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-error-circle"></i>
+            <span>Report issues</span>
+          </a>
+        </li>
+      </ul>
+      <div class="profile-content">
+        <div class="profile">
+          <div class="profile-details">
+            <img src="avatar.png" alt="avatar" />
+            <div class="name-job">
+              <div class="name">John Doe</div>
+              <div class="job">Web Developer</div>
+            </div>
+          </div>
+          <i class="bx bx-log-out" id="logout"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Page content -->
+    <!-- section 1 -->
+    <section class="dahboard-container">
+      <div class="text">Main Dashboard</div>
+      <div class="main-content">
+        <div class="wrap">
+          <a href="#" target="blank">
+            <img src="/assets/dhcp.png" alt="dhcp" class="image"
+          /></a>
+          <p class="title">DHCP</p>
+          <!-- this one -->
+        </div>
+        <div class="wrap">
+          <a href="http://gitlab.gogeo.local/users/sign_in" target="blank"
+            ><img src="/assets/gitlab.png" alt="gitlab" class="image"
+          /></a>
+          <p class="title">Gitlab</p>
+        </div>
+
+        <div class="wrap">
+          <a href="#" target="blank"
+            ><img src="/assets/gitserver.png" alt="gitserver" class="image"
+          /></a>
+          <p class="title">GitServer</p>
+          <!-- this -->
+        </div>
+        <div class="wrap">
+          <a href="http://status.gogeo.local:3000/login" target="blank"
+            ><img src="/assets/grafana.png" alt="grafana" class="image"
+          /></a>
+          <p class="title">Grafana</p>
+        </div>
+
+        <div class="wrap">
+          <a
+            href="http://itboard.gogeo.local/?controller=AuthController&action=login"
+            target="blank"
+            ><img src="/assets/kanboard.png" alt="kanboard" class="image"
+          /></a>
+          <p class="title">Kanboard Server</p>
+        </div>
+
+        <div class="wrap">
+          <a
+            href="http://192.168.1.76/mediawiki/index.php/Main_Page"
+            target="blank"
+            ><img src="/assets/mediawiki.png" alt="mediawiki" class="image"
+          /></a>
+          <p class="title">MediaWiki</p>
+        </div>
+
+        <div class="wrap">
+          <a href="http://192.168.1.242" target="blank"
+            ><img src="/assets/motioneye.png" alt="motioneye" class="image"
+          /></a>
+          <p class="title">Motioneye</p>
+        </div>
+
+        <div class="wrap">
+          <a href="https://www.odoo.com/web/login" target="blank"
+            ><img src="/assets/odoo.png" alt="odoo" class="image"
+          /></a>
+          <p class="title">Odoo</p>
+        </div>
+
+        <div class="wrap">
+          <a href="https://www.ovh.com/auth/" target="blank"
+            ><img src="/assets/ovh.png" alt="ovh" class="image"
+          /></a>
+          <p class="title">OVH</p>
+        </div>
+
+        <div class="wrap">
+          <a href="http://cloud.gogeo.local:8080/login" target="blank"
+            ><img src="/assets/owncloud.png" alt="owncloud" class="image"
+          /></a>
+          <p class="title">OwnCloud</p>
+        </div>
+
+        <div class="wrap">
+          <a
+            href="https://192.168.1.153/auth/login?rediret=%2F&locale=en-UK"
+            target="blank"
+            ><img src="/assets/passbolt.png" alt="passbolt" class="image"
+          /></a>
+          <p class="title">Passbolt</p>
+        </div>
+
+        <div class="wrap">
+          <a href="http://192.168.1.107/admin/index.php?login" target="blank"
+            ><img src="/assets/pihole.png" alt="pihole" class="image"
+          /></a>
+          <p class="title">PiHole</p>
+        </div>
+
+        <div class="wrap">
+          <a href="https://192.168.1.87:8080" target="blank"
+            ><img src="/assets/printserver.png" alt="printserver" class="image"
+          /></a>
+          <p class="title">Print Server</p>
+        </div>
+
+        <div class="wrap">
+          <a href="https://192.168.1.89" target="blank"
+            ><img src="/assets/privatebin.png" alt="privatebin" class="image"
+          /></a>
+          <p class="title">PrivateBin</p>
+        </div>
+
+        <div class="wrap">
+          <a href="https://192.168.1.14:8006/" target="blank"
+            ><img src="/assets/proxmox.png" alt="proxmox" class="image"
+          /></a>
+          <p class="title">Proxmox</p>
+        </div>
+
+        <div class="wrap">
+          <a href="http://192.168.1.81:3000/home" target="blank"
+            ><img src="/assets/rocketchat.png" alt="rocketchat" class="image"
+          /></a>
+          <p class="title">RocketChat</p>
+        </div>
+
+        <div class="wrap">
+          <a href="#" target="blank"
+            ><img src="/assets/tails.png" alt="tails" class="image"
+          /></a>
+          <p class="title">Tails</p>
+          <!-- this -->
+        </div>
+
+        <div class="wrap">
+          <a
+            href="https://truenas.gogeo.local/ui/sessions/signin"
+            target="blank"
+            ><img src="/assets/truenas.png" alt="truenas" class="image"
+          /></a>
+          <p class="title">True NAS</p>
+        </div>
+
+        <div class="wrap">
+          <a href="#" target="blank"
+            ><img src="/assets/webdav.png" alt="webdav" class="image"
+          /></a>
+          <p class="title">WebDAV</p>
+          <!-- this -->
+        </div>
+      </div>
+    </section>
+
+    <!-- section 2 -->
+    <!-- <section class="profile-container">
+      <div></div>
+    </section> -->
+    <!-- section 3 -->
+    <!-- <section class="settings-container">
+      <div></div>
+    </section> -->
+    <!-- section 4 -->
+    <!-- <section class="reprted-issues-container">
+      <div></div>
+    </section>
+    <script>
+      let btn = document.querySelector("#btn");
+      let sidebar = document.querySelector(".sidebar");
+      let searchBtn = document.querySelector(".bx-search-alt");
+
+      btn.onclick = function () {
+        sidebar.classList.toggle("active");
+      };
+      searchBtn.onclick = function () {
+        sidebar.classList.toggle("active");
+      };
+    </script> -->
+  </body>
+  <footer>
+    <div class="footer">
+      <p class="dash-footer">Powered by GOgeo Engineering ©</p>
+    </div>
+  </footer>
+</html>

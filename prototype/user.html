@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DASHBOARD</title>
+    <link rel="icon" href="logo.png" />
+    <link rel="stylesheet" href="app.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <!-- Sidebar -->
+  <body>
+    <div class="sidebar">
+      <div class="logo-details">
+        <div class="logo">
+          <img src="logo.png" />
+          <p class="logo-name">GOGEO ENGINEERING</p>
+        </div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <a href="#">
+            <i class="bx bx-search-alt"></i>
+            <input type="text" placeholder="Search.." />
+          </a>
+        </li>
+        <li>
+          <a href="app.html">
+            <i class="bx bx-grid-alt"></i>
+            <span>Main Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="user.html">
+            <i class="bx bx-user"></i>
+            <span>User</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-cog"></i>
+            <span>Settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-error-circle"></i>
+            <span>Report issues</span>
+          </a>
+        </li>
+      </ul>
+      <div class="profile-content">
+        <div class="profile">
+          <div class="profile-details">
+            <img src="avatar.png" alt="avatar" />
+            <div class="name-job">
+              <div class="name">John Doe</div>
+              <div class="job">Web Developer</div>
+            </div>
+          </div>
+          <i class="bx bx-log-out" id="logout"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- User page -->
+    <section class="user-container">
+      <div class="info">
+        <p>
+          Welcome back <strong> John Doe!</strong> Do not miss your upcoming
+          events, you have a meeting soon.
+        </p>
+      </div>
+
+      <div class="cal-title">Calendar</div>
+      <div class="calendar-container">
+        <div class="month">
+          <ul>
+            <li class="prev">&#10094;</li>
+            <li class="next">&#10095;</li>
+            <li>
+              September<br />
+              <span style="font-size: 18px">2021</span>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="weekdays">
+          <li>Mo</li>
+          <li>Tu</li>
+          <li>We</li>
+          <li>Th</li>
+          <li>Fr</li>
+          <li>Sa</li>
+          <li>Su</li>
+        </ul>
+
+        <ul class="days">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+          <li>8</li>
+          <li>9</li>
+          <li>10</li>
+          <li>11</li>
+          <li>12</li>
+          <li>13</li>
+          <li>14</li>
+          <li>15</li>
+          <li>16</li>
+          <li>17</li>
+          <li>18</li>
+          <li>19</li>
+          <li><span class="active">20</span></li>
+          <li>21</li>
+          <li>22</li>
+          <li>23</li>
+          <li>24</li>
+          <li>25</li>
+          <li>26</li>
+          <li><span class="meeting">27</span></li>
+          <li>28</li>
+          <li>29</li>
+          <li>30</li>
+        </ul>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <div class="footer">
+      <p class="dash-footer">Powered by GOgeo Engineering ©</p>
+    </div>
+  </footer>
+</html>
